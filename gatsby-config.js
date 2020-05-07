@@ -5,9 +5,9 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `Emma's Gluten-Free Sweets`,
+    description: `Gluten and Dairy Free Confections and Cakes`,
+    author: `Chance Eakin`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -15,13 +15,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
+        name: `Emma's Gluten-Free Sweets`,
         short_name: `starter`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.teal["400"],
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`,
       },
     },
     {
